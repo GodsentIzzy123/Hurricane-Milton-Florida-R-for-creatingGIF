@@ -1,0 +1,1 @@
+convert -delay 200 frame1.png -delay 10 $(for i in $(seq 2 30); do echo frame${i}.png; done) -delay 200 frame31.png hurricane-milton.gif
