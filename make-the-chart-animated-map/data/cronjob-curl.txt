@@ -1,0 +1,1 @@
+0 * * * * /usr/bin/curl 'https://water.noaa.gov/resources/downloads/precip/stageIV/current/nws_precip_1hour_conus.tif' -o '/FILE_LOCATION/nws_precip_1hour_conus_$(date +\%Y\%m\%d_\%H\%M\%S).tif'
